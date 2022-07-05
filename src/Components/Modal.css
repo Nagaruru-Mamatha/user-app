@@ -1,0 +1,153 @@
+.modalBackground {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContainer {
+    width: 350px;
+    height: 56px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   
+    flex-direction: column;
+    padding-left: 1px;
+    padding-right: 1px;
+    overflow: hidden;
+    display: flex;
+    transition: height 1.5s;
+   
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .modalContainer .title {
+    display: inline-block;
+ 
+    margin-top: -50%;
+    flex:0.5;
+    color: #fff;
+  }
+  .modalHeader{
+    background-color: green;
+    height: 55px;
+    text-align: center;
+
+  }
+  .titleCloseBtn {
+    display: flex;
+    justify-content: flex-end;
+    color: #fff;
+  
+   
+  }
+  
+  .titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  
+  .rightChat{
+    display: flex;
+    justify-content: flex-end;
+    background-color: skyblue;
+    flex-wrap: wrap;
+    width: min-content;
+    width: max-content;
+    margin-left: auto;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+    
+   
+  }
+  .rightChat button{
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  .leftChat{
+    display: flex;
+    justify-content: flex-start;
+    background-color: lightgray;
+    flex-wrap: wrap;
+    width: min-content;
+    width: max-content;
+   
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+   }
+   .leftChat button{
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  .modalContainer .body {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    text-align: center;
+  }
+  .modalContainer .body {
+    display: inline-block;
+  
+    margin-top: 10px;
+  
+   
+   
+   
+  }
+
+
+  
+  .modalContainer .footer {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+  .modalContainer .footer button {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  #cancelBtn {
+    background-color: crimson;
+  }
+  .modalContainer .footer textarea{
+    height: max-content;
+    width:max-content;
+    width: 70%;
+    height: 30%;
+    text-align: left;
+    padding: 5px;
+    
+
+  }
+
